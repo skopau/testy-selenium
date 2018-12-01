@@ -15,9 +15,7 @@ public class Init {
 		System.out.println("wewnatrz getDriver");
 		System.setProperty("webdriver.chrome.driver", "C://lait//cwiczenia selenium/chromedriver.exe");
 		DesiredCapabilities cap = DesiredCapabilities.chrome();
-		driver = new ChromeDriver();
-		driver.get("http://newtours.demoaut.com");
-
+		
 			if(driver==null) {
 				driver = new ChromeDriver();
 				System.out.println("get http...");
