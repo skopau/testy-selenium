@@ -33,7 +33,7 @@ public class Login2Test {
 		loginPage.loginAs("skopau", "skopau123456789");
 		System.out.println("koniec testu login");
 	}
-
+	@Ignore
 	@Test
 	public void reservation() {
 		LoginPage loginPage = new LoginPage();
